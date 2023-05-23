@@ -33,3 +33,12 @@ Links             : {}
 ParsedHtml        : mshtml.HTMLDocumentClass
 
 RawContentLength  : 61
+
+
+### Доступ в sec канал
+
+#### Копируем токен:
+
+ Invoke-WebRequest -Uri "http://localhost:8080/resource" -Method GET -Headers @{"Authorization" = "FWdD07QTfcA2pIikIA2X"}
+ 
+ #### Получаем доступ!
